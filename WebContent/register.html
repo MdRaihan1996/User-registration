@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="reg" method="post">
+<table>
+   
+   <tr>
+  <td>Employee id:</td>
+  <td><input type="text" name="id"></td>
+  </tr>
+  
+  <tr>
+  <td>Employee Name:</td>
+  <td><input type="text" name="name"></td>
+  </tr>
+  
+  <tr>
+  <td>Gender:</td>
+  <td><input type="radio" name="gen" value="male">Male</td>
+  <td><input type="radio" name="gen" value="female">Female</td>
+  </tr>
+  
+  <tr>
+  <td>Languages:</td>
+  <td><input type="checkbox" name="lang" value="telgu">Telgu</td>
+  <td><input type="checkbox" name="lang" value="english">English</td>
+  <td><input type="checkbox" name="lang" value="hindi">Hindi</td>
+</tr>
+
+<tr>
+<td>Date of Birth:</td>
+<td><select name="days">
+<option value="days">Days</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+</select></td>
+<tr>
+<td><select name="month">
+    <option value="month">Month</option>
+    <option value="january">January</option>
+    <option value="february">February</option>
+    
+   </select></td></tr>
+   <tr>
+   <td><select name="years">
+   <option value="years">Years</option>
+   <option value="1982">1982</option>
+   <option value="1990">1990</option>
+   </select></td></tr>
+   
+   <tr>
+   <td>Address:</td>
+   <td><textarea rows="5" cols="5" name="addr"></textarea></td>
+   </tr>
+   
+   <tr>
+   <td><input type="submit" value="Register"></td></tr>
+</table>
+</form>
+</body>
